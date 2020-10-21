@@ -303,9 +303,14 @@ a {
 }
 .contato-sociais img {
   width: 20px;
+  transition: 100ms ease-in;
 }
 .contato-sociais img:hover{
-  
+  -moz-transform: translate(0px, -5px);
+  -webkit-transform: translate(0px, -5px);
+  -o-transform: translate(0px, -5px);
+  -ms-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
 }
 .forn input,
 textarea {
