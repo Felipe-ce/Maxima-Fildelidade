@@ -103,6 +103,8 @@ img{
 .cool-link {
   padding: 6px 0;
   color: #000;
+  font-size: 1em;
+  letter-spacing: .05em;
 }
 .cool-link::after {
   content: "";
@@ -218,10 +220,105 @@ img{
   text-align: center;
   margin-top: 42px;
 }
-/* 
 
+/* preços */
 .precos{
-  background: url(../img/br-percos.png) no-repeat center;
+  width: 100%;
+  background: url(../img/br-precos.png) no-repeat center;
+  height: 900px;
   background-size: cover;
-  height: 600px;
+  margin-top: 40px;
+}
+.precos .titulo{
+  font-size: 2em;
+}
+.precos p, .formulario > p{
+  max-width: 600px;
+  color: #636166;
+  line-height: 1.4;
+  text-align: center;
+  margin: 16px auto 32px auto;
+}
+.precos-tabela{
+  max-width: 800px;
+  margin: 0 auto;
+}
+.precos-content{
+  padding: 120px 0 80px 0;
+}
+
+/* Formulario */
+.formulario{
+  padding: 0 10px 60px 10px;
+}
+.formulario .subtitulo{
+  text-align: center;
+  font-size: 2em;
+}
+.formulario-content img{
+  width: 60px;
+}
+.formulario-item{
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 20px;
+  border-radius: 20px;
+  min-height: 190px;
+}
+.formulario-item span{
+  display: block;
+  margin-top: 16px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+}
+.formulario-item:first-of-type{
+  margin-bottom: 20px;
+}
+.formulario-item p{
+  font-family: "Poppins", sans-serif;
+  color: #474747;
+  margin: 20px 0 10px 0;
+  font-size: 1.125em;
+  font-weight: bold;
+}
+.formulario-item p::after{
+  content: "";
+  display: block;
+  height: 3px;
+  max-width: 180px;
+  margin: 10px auto;
+  background:  #EEEBF2;
+}
+.formulario-item a{
+  color: #474747; 
+}
+.contato-sociais li{
+  margin-top: 5px;
+  display: inline-block;
+}
+.contato-sociais li:nth-child(2){
+  margin: 0 20px  ;
+}
+.contato-sociais img{
+  width: 20px;
+}
+.forn input, textarea{
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  width: 90%;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  border-radius: 15px;
+  border: 1px solid #ABA7B0;
+  outline: none;
+  color: #000;
+  font-size: 1.125em;
+}
+.forn textarea{
+  resize: none;
+  height: 155px;
+}
+.forn .btn{
+  color: #fff;
 }

@@ -116,43 +116,57 @@
 
   <!-- Tabela de preço -->
   <section class="precos">
-    <h1>Vantagens do nosso Cartão</h1>
-    <p>Faça agora mesmo a adesão do seu cartão e tenha descontos e vantagens que só os clientes da Máxima fidelidade possuem.</p>
-    <img src="img/tabela.png" alt="Tabela de preços">
+    <div class="precos-content">
+      <h1 class="titulo">Vantagens do nosso Cartão</h1>
+      <p>Faça agora mesmo a adesão do seu cartão e tenha descontos e vantagens que só os clientes da Máxima fidelidade possuem.</p>
+      <div class="precos-tabela">
+        <img src="img/tabela.png" alt="Tabela de preços">
+      </div>
+      <div class="div-btn grid-12">
+        <a class="btn" href="#">Adiquira agora</a>
+      </div>
+    </div>
   </section>
 
   <!-- contato -->
-  <section>
-    <h2>Quero me cadastrar</h2>
+  <section class="formulario container">
+    <h2 class="subtitulo">Quero me cadastrar</h2>
     <p>Preencha o formulário abaixo ou escolha umas das opções, para nossos consultores entrarem em contato e concluírem a contratação do seu <span>Máxima Fidelidade</span> </p>
     
-    <div>
-      <img src="img/icones/localização.svg" alt="Localização">
-      <ul>
-        <li>Palácio do progresso</li>
-        <li>Rua do Pocinho, n°  33 - Centro</li>
-        <li>PFortaleza - CE</li>
-      </ul>
+    <div class="grid-6 formulario-content">
+      <div class="grid-12 formulario-item">
+        <img src="img/icones/localização.svg" alt="Localização">
+          <span>Palácio do progresso</span>
+          <p>Rua do Pocinho, n°  33 - Centro</p>
+          <span>Fortaleza - CE</span>
+      </div>
+  
+  
+      <div class="grid-6 formulario-item">
+        <img src="img/icones/redes-sociais.svg" alt="redes Sociais">
+        <p>redes Sociais</p>
+        <ul class="contato-sociais">
+          <li><a href="#"><img src="img/icones/instagram.png" alt="instagram"></a></li>
+          <li><a href="#"><img src="img/icones/facebook.png" alt="facebook"></a></li>
+          <li><a href="#"><img src="img/icones/whatsapp.png" alt="whatsapp"></a></li>
+        </ul>
+      </div>
+
+      <div class="grid-6 formulario-item">
+        <img src="img/icones/telefone.svg" alt="Relefone">
+        <p>Telefone</p>
+        <a href="tel:+8540420956">85 4042.0956</a>
+      </div>
     </div>
 
-    <div>
-      <img src="img/icones/redes-sociais.svg" alt="redes Sociais">
-      <h3>redes Sociais</h3>
-      <ul>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">WhatsApp</a></li>
-      </ul>
-    </div>
-
-    <div>
+    <div class="grid-6 formulario-item forn">
       <form action="#" method="post">
         <div>
           <input type="text" required placeholder="Seu nome">
           <input type="email" required placeholder="E-mail">
-          <input type="tel" required placeholder="Telefone / WhatsApp">
+          <input type="number" required placeholder="Telefone / WhatsApp">
           <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-          <a href="#">Adiquira agora</a>
+          <a class="btn" href="#">Adiquira agora</a>
         </div>
       </form>
     </div>
