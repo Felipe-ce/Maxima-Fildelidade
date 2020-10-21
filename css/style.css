@@ -75,6 +75,10 @@ a {
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 0.875em;
+  transition: all .1s ease-in;
+}
+.sub-header a:hover {
+  color: #BF0029;
 }
 .sub-redes-sociais li {
   display: inline-block;
