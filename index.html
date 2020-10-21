@@ -11,6 +11,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
 
   <title>Maxima Fidelidade</title>
@@ -18,33 +19,40 @@
 <body>
   <!-- Sub header -->
   <section class="sub-header">
-    <div class="sub-header-container container">
-      <p>Rua do Pocinho, n°  33 - Centro, Fortaleza - CE</p>
-      <a href="tel:+558540420956">Telefone: 85 4042.0956</a>
-      <ul class="sub-redes-sociais">
-        <li><a href="#"><img src="img/icones/instagram.png" alt="Instagram"></a></li>
-        <li><a href="#"><img src="img/icones/facebook.png" alt="Facebook"></a></li>
-      </ul>
+    <div class="container">
+      <div class="grid-6">
+        <p>Rua do Pocinho, n°  33 - Centro, Fortaleza - CE</p>
+      </div>
+      <div class="grid-3">
+        <a href="tel:+558540420956">Telefone: 85 4042.0956</a>
+      </div>
+      <div class="grid-3  ">
+        <ul class="sub-redes-sociais">
+          <li><a href="#"><img src="img/icones/instagram.png" alt="Instagram"></a></li>
+          <li><a href="#"><img src="img/icones/facebook.png" alt="Facebook"></a></li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- header -->
-  <header class="container header">
-    <a class="logo" href="#"><img src="img/logo.png" alt="Maxima Fidelidade, Clinica pupular"></a>
-    <nav>
+  <header class="header container">
+    <div class="grid-4">
+      <a class="logo" href="#"><img src="img/logo.png" alt="Maxima Fidelidade, Clinica pupular"></a>
+    </div>
+    <nav class="grid-8">
       <ul class="menu">
         <li><a class="cool-link" href="#">Inicio</a></li>
         <li><a class="cool-link" href="#">Sobre nós</a></li>
         <li><a class="cool-link" href="#">Vantagens - Parceiros</a></li>
         <li><a class="btn" href="#">Adiquira Agora</a></li>
       </ul>
-      <!-- Aadicionar botao para ação aqui -->
     </nav>
   </header>
 
   <!-- Intro -->
   <section class="intro">
-    <div class="container intro-content">
+    <div class="container">
       <div class="intro-conteudo"> 
         <h1>Clinica Popular</h1>
         <h2>Até R$ 300,00 de crédito <br> em 12 vezes</h2>
@@ -55,21 +63,21 @@
   </section>
 
   <!-- Beneficios -->
-  <section class="container beneficios">
+  <section class="beneficios">
     <h2 class="titulo">Beneficios</h2>
     <!-- containerdos itens de beneficios -->
-    <div class="beneficios-itens">
-      <div class="beneficios-item">
+    <div class="container">
+      <div class="grid-4 beneficios-item">
         <img src="img/icones/doctor.svg" alt="Doutor">
-        <h3 class="subtitulo">Melhores Profissionais</h3>
+        <h3 class="subtitulo ">Melhores Profissionais</h3>
         <p>Seja atendido por profissionais qualificados, garantindo a máxima eficiência nos resultados.</p>
       </div>
-      <div class="beneficios-item">
+      <div class="grid-4 beneficios-item">
         <img src="img/icones/expenses.svg" alt="Melhores Preços">
         <h3 class="subtitulo">Melhores Preços</h3>
         <p>Ter saúde de qualidade com um preço que cabe no seu bolso nunca foi tão fácil, aqui na Máxima Fidelidade você pode.</p>
       </div>
-      <div class="beneficios-item">
+      <div class="grid-4 beneficios-item">
         <img src="img/icones/hospital.svg" alt="Espeço e conforto">
         <h3 class="subtitulo">Melhor espaço e conforte</h3>
         <p>Ambiente limpo, aconchegante e confortável com amplo espaço climatizado.</p>
