@@ -512,10 +512,6 @@ Pagina sobre
 @media (max-width: 769px) {
   .sobre .titulo {
     font-size: 1.375em;
-    max-width: 650px;
-    margin: 40px auto 80px auto;
-    color: #433f4d;
-    font-weight: normal;
   }
   .sobre h2 {
     font-size: 1.25em;
