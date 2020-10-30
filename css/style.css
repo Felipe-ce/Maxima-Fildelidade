@@ -302,6 +302,18 @@ a {
 .precos-content {
   padding: 120px 0 80px 0;
 }
+#enviar{
+  border: none;
+  width: 100px;
+  font-size: 1em;
+  font-weight: bold;
+}
+#form-sucesso{
+  color: #31aa39;
+}
+#form-erro{
+  color: #f64640;
+}
 @media (min-width: 1025px) {
   .precos-tabela{
     max-width: 1300px;
@@ -309,6 +321,11 @@ a {
   .precos {
     height: 1080px;
   }
+}
+.nao-aparece{
+  visibility: hidden;
+  height: 0;
+  position: absolute;
 }
 @media (max-width: 769px) {
   .precos .titulo {

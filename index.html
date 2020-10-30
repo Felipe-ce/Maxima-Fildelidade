@@ -160,27 +160,34 @@
     </div>
 
     <div class="grid-6 formulario-item forn">
-      <form action="#" method="post">
+      <form class="mormphp" action="enviar.php" method="POST">
         <div>
           <div>
-            <input class="grid-12" type="text" required placeholder="Seu nome">
+            <input name="nome" class="grid-12" type="text" required placeholder="Seu nome">
           </div>
           <div>
-            <input class="grid-12" type="email" required placeholder="E-mail">
+            <input name="email" class="grid-12" type="email" required placeholder="E-mail">
           </div>
           <div>
-            <input class="grid-8" type="number" required placeholder="Telefone">
+            <label class="nao-aparece">Se você for um robo, deixe em branco.</label>
+            <input class="nao-aparece" type="text" name="leaveblank">
+
+            <label class="nao-aparece">Se você não é um robo, não mude este campo .</label>
+            <input class="nao-aparece" type="text" name="dontchange" value="http://">
+          </div>  
+
+          <div>
+            <input name="numero" class="grid-8" type="number" required placeholder="Telefone">
           </div>
           <div class="grid-4 teste">
             <input type="checkbox" name="whatsapp" id="whatsapp"> 
             <label for="whatsapp">Whatsapp</label>
           </div>
           <div >
-            <textarea class="grid-12" name="" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
-
+            <textarea class="grid-12" name="mensagem" id="" cols="30" rows="10" placeholder="Mensagem"></textarea>
           </div>
-          <a class="btn" href="#">Adiquira agora</a>
-        </div>
+          <button id="enviar" name="enviar" class="btn" type="submit">Enviar</button>
+          </div>
       </form>
     </div>
   </section>
@@ -213,5 +220,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="js/simple-form.js"></script>
 </body>
 </html>  
