@@ -326,6 +326,8 @@ a {
   visibility: hidden;
   height: 0;
   position: absolute;
+  top: 0;
+  left: 0;
 }
 @media (max-width: 769px) {
   .precos .titulo {
