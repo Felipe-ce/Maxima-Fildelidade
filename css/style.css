@@ -369,13 +369,14 @@ a {
 .formulario-item:first-of-type {
   margin-bottom: 20px;
 }
-.formulario-item p {
+.formulario-item .desc-p {
   font-family: "Poppins", sans-serif;
   color: #474747;
   margin: 20px 0 10px 0;
   font-size: 1.125em;
   font-weight: bold;
 }
+
 .formulario-item p::after {
   content: "";
   display: block;
@@ -428,7 +429,7 @@ textarea {
   margin-top: 15px;
   max-width: 100%;
 }
-.teste label{
+.checkapp label{
   font-family: 'Poppins', sans-serif;
   font-size: .875em;
   margin-left: 2px;
@@ -437,6 +438,12 @@ textarea {
 }
 .forn .btn {
   color: #fff;
+}
+.forn h4{
+  font-size: 1.125em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: .05em;
 }
 @media (max-width: 769px) {
   .formulario-item:first-of-type {
@@ -563,4 +570,35 @@ Pagina sobre
   .equipe h2{
     margin-bottom: 16px;
   }
+}
+
+
+/* Aimações */
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+  transform: translate3d(0,-20px,0);
+}
+.js .fadeInUp {
+  transform: translate3d(0,20px,0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px,0,0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px,0,0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .8s, opacity .8s;
 }
