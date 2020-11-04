@@ -294,7 +294,7 @@ a {
   text-align: center;
   margin: 16px auto 32px auto;
 }
-.precos-tabela{
+.precos-tabela {
   max-width: 700px;
   margin: 0 auto;
   padding: 0 20px;
@@ -302,27 +302,27 @@ a {
 .precos-content {
   padding: 120px 0 80px 0;
 }
-#enviar{
+#enviar {
   border: none;
   width: 100px;
   font-size: 1em;
   font-weight: bold;
 }
-#form-sucesso{
+#form-sucesso {
   color: #31aa39;
 }
-#form-erro{
+#form-erro {
   color: #f64640;
 }
 @media (min-width: 1025px) {
-  .precos-tabela{
+  .precos-tabela {
     max-width: 1300px;
   }
   .precos {
     height: 1080px;
   }
 }
-.nao-aparece{
+.nao-aparece {
   visibility: hidden;
   height: 0;
   position: absolute;
@@ -427,13 +427,13 @@ textarea {
   margin-right: 0;
 }
 
-.teste input{
+.teste input {
   margin-top: 15px;
   max-width: 100%;
 }
-.checkapp label{
-  font-family: 'Poppins', sans-serif;
-  font-size: .875em;
+.checkapp label {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.875em;
   margin-left: 2px;
   color: rgb(36, 158, 58);
   font-weight: bold;
@@ -441,11 +441,11 @@ textarea {
 .forn .btn {
   color: #fff;
 }
-.forn h4{
+.forn h4 {
   font-size: 1.125em;
   margin-bottom: 10px;
   font-weight: bold;
-  letter-spacing: .05em;
+  letter-spacing: 0.05em;
 }
 @media (max-width: 769px) {
   .formulario-item:first-of-type {
@@ -502,7 +502,6 @@ textarea {
 }
 .footer-endereço li {
   margin-bottom: 8px;
-
 }
 @media (max-width: 769px) {
   .footer {
@@ -559,7 +558,7 @@ Pagina sobre
   line-height: 1.4;
   color: #6a6363;
 }
-.equipe h2{
+.equipe h2 {
   margin-bottom: 42px;
 }
 @media (max-width: 769px) {
@@ -569,11 +568,10 @@ Pagina sobre
   .sobre h2 {
     font-size: 1.25em;
   }
-  .equipe h2{
+  .equipe h2 {
     margin-bottom: 16px;
   }
 }
-
 
 /* Aimações */
 .js [data-anime] {
@@ -582,25 +580,25 @@ Pagina sobre
 .js .anime {
   opacity: 1;
   transform: none;
-  transition: transform .8s, opacity .8s;
+  transition: transform 0.8s, opacity 0.8s;
 }
 
 /* 7 CSS personalizado dependendo da animação desejada */
 .js .fadeInDown {
-  transform: translate3d(0,-20px,0);
+  transform: translate3d(0, -20px, 0);
 }
 .js .fadeInUp {
-  transform: translate3d(0,20px,0);
+  transform: translate3d(0, 20px, 0);
 }
 .js .fadeInRight {
-  transform: translate3d(20px,0,0);
+  transform: translate3d(20px, 0, 0);
 }
 .js .fadeInLeft {
-  transform: translate3d(-20px,0,0);
+  transform: translate3d(-20px, 0, 0);
 }
 
 .js .anime {
   opacity: 1;
   transform: none;
-  transition: transform .8s, opacity .8s;
+  transition: transform 0.8s, opacity 0.8s;
 }

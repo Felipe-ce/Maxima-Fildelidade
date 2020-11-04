@@ -26,3 +26,23 @@ if(window.SimpleForm) {
 	  sucesso: "<div id='form-sucesso'><h4>Formulário enviado com sucesso</h4><p>Em breve entraremos em contato com você.</p></div>", // mensagem de sucesso
 	});
 }
+
+function initScrollSuave() {
+	const linksInterno = document.querySelectorAll('a[href^="#"]');
+	function scrollToSection(event) {
+		event.preventDefault();
+		const herf = event.currentTarget.getAttribute('href');
+		const section = document.querySelector(herf);
+	
+		const top = section.offsetTop;
+		window.scrollTo({
+			top: top,
+			behavior: "smooth"
+		});
+	}
+	
+	linksInterno.forEach((link) => {
+		link.addEventListener('click', scrollToSection)
+	})
+}
+initScrollSuave();
