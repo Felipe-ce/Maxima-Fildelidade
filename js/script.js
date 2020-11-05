@@ -5,14 +5,15 @@
 // 	  time: 5000 // tempo de transição dos slides
 // 	});
 
-// 	new SimpleSlide({
-// 		slide: "portfolio",
-// 	  time: 5000,
-// 	  nav: true
-// 	});
-
-// }
-
+if(window.SimpleAnime) {
+	new SimpleSlide({
+		slide: "intro",
+		auto: false,
+		nav: true,
+		time: 115000, // tempo de transição dos slides
+		pauseOnHover: true, // pausa a transição automática
+	});
+}
 if(window.SimpleAnime) {
 	new SimpleAnime();
 }

@@ -148,10 +148,19 @@ a {
 
 /* intro */
 .intro {
-  background: url("../img/bg-into2.jpg") no-repeat center;
   background-size: cover;
   height: 580px;
 }
+.intro1 {
+  background: url("../img/bg-into1.jpg") no-repeat center;
+
+}
+.intro2 {
+  background: url("../img/bg-into2.jpg") no-repeat center;
+
+}
+
+
 .intro-conteudo {
   float: right;
   margin-top: 15%;
@@ -573,6 +582,49 @@ Pagina sobre
   }
 }
 
+
+/*slide*/
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+  z-index: 1;
+}
+/* 6 CSS recomendado para a navegação */
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav] > button {
+  display: inline-block;
+  width: 16px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow: hidden;
+  outline: none;
+}
+.js [data-slide-nav] > button.active {
+  background: #3727c5;
+  width: 22px;
+}
+
+
+
 /* Aimações */
 .js [data-anime] {
   opacity: 0;
@@ -582,6 +634,7 @@ Pagina sobre
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
 }
+
 
 /* 7 CSS personalizado dependendo da animação desejada */
 .js .fadeInDown {
